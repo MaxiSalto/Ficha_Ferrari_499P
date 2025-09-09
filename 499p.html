@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ferrari 499P — Ganador Le Mans 2024</title>
+  <meta name="description" content="Ficha elegante del Ferrari 499P #50, ganador absoluto de las 24 Horas de Le Mans 2024 (Ferrari AF Corse)." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b0b0f;
+      --bg-soft: #12121a;
+      --fg: #e6e6ef;
+      --muted: #9aa0aa;
+      --brand: #e10600; /* Ferrari-ish */
+      --card: #161622;
+      --accent: #d0d4ff;
+      --glass: rgba(255,255,255,.06);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;background:var(--bg);color:var(--fg);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Helvetica Neue",Arial,"Noto Sans",sans-serif}
+    a{color:var(--accent);text-decoration:none}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    .hero{position:relative;border-radius:24px;overflow:hidden;isolation:isolate;box-shadow:0 10px 40px rgba(0,0,0,.45)}
+    .hero img{width:100%;height:56vh;min-height:420px;object-fit:cover;display:block;filter:saturate(1.05) contrast(1.05)}
+    .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.25) 0%, rgba(0,0,0,.6) 60%, rgba(11,11,15,1) 100%)}
+    .hero-content{position:absolute;inset:auto 0 0 0;padding:28px 28px 24px 28px;display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end;z-index:2}
+    .badge{background:rgba(0,0,0,0.6);color:#fff;backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.15);padding:6px 12px;border-radius:999px;font-weight:600;letter-spacing:.3px}
+    h1{font-size:clamp(28px,4vw,48px);margin:0;font-weight:800;line-height:1.05;text-shadow:0 2px 6px rgba(0,0,0,.75)}
+    .sub{font-size:clamp(14px,1.8vw,18px);color:var(--muted);text-shadow:0 1px 4px rgba(0,0,0,.8)}
+
+    /* Info grid */
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px;margin-top:28px}
+    .card{background:linear-gradient(180deg,var(--card),#0f0f18);border:1px solid rgba(255,255,255,.08);border-radius:20px;padding:18px 18px 16px}
+    .card h3{margin:0 0 8px;font-size:15px;color:var(--muted);font-weight:600;letter-spacing:.4px;text-transform:uppercase}
+    .card p{margin:0;font-size:18px}
+    .span-4{grid-column:span 4}
+    .span-8{grid-column:span 8}
+    .span-12{grid-column:span 12}
+    @media (max-width:900px){.span-8{grid-column:span 12}.span-4{grid-column:span 6}}
+    @media (max-width:640px){.span-4{grid-column:span 12}}
+
+    /* Carousel */
+    .carousel{position:relative;border-radius:20px;overflow:hidden}
+    .carousel-track{display:flex;transition:transform .5s ease;will-change:transform}
+    .carousel img{width:100%;height:420px;object-fit:cover;display:block}
+    .controls{position:absolute;inset:0;display:flex;justify-content:space-between;align-items:center;padding:0 8px}
+    .btn{background:var(--glass);border:1px solid rgba(255,255,255,.15);backdrop-filter:blur(8px);width:42px;height:42px;border-radius:50%;display:grid;place-items:center;cursor:pointer}
+    .dots{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);display:flex;gap:8px}
+    .dot{width:8px;height:8px;border-radius:50%;background:#6b7280;border:1px solid rgba(255,255,255,.3);opacity:.7}
+    .dot.active{background:var(--brand);opacity:1}
+
+    /* Video */
+    .video{position:relative;padding-top:56.25%;border-radius:20px;overflow:hidden;border:1px solid rgba(255,255,255,.08)}
+    .video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+
+    /* Footer */
+    .footer{color:var(--muted);font-size:13px;margin-top:26px}
+    .tag{display:inline-flex;gap:8px;align-items:center;padding:8px 12px;border-radius:999px;border:1px solid rgba(255,255,255,.12);background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.02))}
+    .tag b{color:var(--fg)}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- HERO -->
+    <section class="hero">
+      <!-- Imagen CC0 de Wikimedia Commons -->
+      <img src="50-rouge-ferrari-499p-et-gagne-les-24h-le-mans-2024.jpg" alt="Ferrari 499P #50 — Ganador Le Mans 2024" />
+      <div class="hero-content">
+        <span class="badge">24h Le Mans 2024</span>
+        <div>
+          <h1>Ferrari 499P #50</h1>
+          <div class="sub">Ferrari AF&nbsp;Corse · Antonio Fuoco · Miguel Molina · Nicklas Nielsen</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- META INFO -->
+    <div class="grid">
+      <div class="card span-4">
+        <h3>Resultado</h3>
+        <p><strong>Ganador Absoluto</strong> · 311 vueltas</p>
+      </div>
+      <div class="card span-4">
+        <h3>Categoría</h3>
+        <p>Hypercar (LMH)</p>
+      </div>
+      <div class="card span-4">
+        <h3>Equipo</h3>
+        <p>Ferrari AF&nbsp;Corse · <span style="color:var(--brand);font-weight:700">#50</span></p>
+      </div>
+      <div class="card span-8">
+        <h3>Momentos Clave</h3>
+        <p>Final dramático bajo lluvia ligera y estrategia de combustible. Parada extra para asegurar la puerta derecha en la última hora antes del empuje final.</p>
+      </div>
+      <div class="card span-4">
+        <h3>Rivales en el podio</h3>
+        <p>2º Toyota GR010 (#7) · 3º Ferrari 499P (#51)</p>
+      </div>
+    </div>
+
+    <!-- CAROUSEL -->
+    <h2 style="margin:28px 8px 10px">Galería</h2>
+    <div class="carousel card span-12" id="carousel">
+      <div class="carousel-track" id="track">
+        <!-- Todas imágenes CC0/CC-BY-SA de Wikimedia Commons -->
+        <img src="Le-Mans-768x432.jpg" alt="Ferrari 499P ganador — recta de meta" width="600" />
+        <img src="Ferrari-499P-hypercar-wins-the-2024-24-Hours-of-Le-Mans.webp" alt="Ferrari 499P #50 — detalle de carrocería" width="600" />
+        <img src="2024_24_hours_of_le_mans_50_ferrari_499p_hypercar_wins.webp" alt="499P en chicana Ford (ejemplo de dinámica)" width="600" />
+    </div>
+      <div class="controls">
+        <button class="btn" id="prev" aria-label="Anterior">&#10094;</button>
+        <button class="btn" id="next" aria-label="Siguiente">&#10095;</button>
+      </div>
+      <div class="dots" id="dots"></div>
+    </div>
+
+    <!-- VIDEO -->
+    <h2 style="margin:28px 8px 10px">Highlights Oficiales</h2>
+    <div class="video card span-12">
+      <!-- FIA WEC: Highlights 2024 -->
+      <iframe src="https://www.youtube.com/embed/MhHii-eOzHE" title="Highlights 2024 24 Hours of Le Mans — FIA WEC" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <!-- SPEC Y ETIQUETAS RÁPIDAS -->
+    <div class="grid">
+      <div class="card span-8">
+        <h3>Ficha rápida del 499P</h3>
+        <p>Prototipo LMH híbrido con tracción a las cuatro ruedas, V6 biturbo 3.0&nbsp;L como motor térmico y unidad eléctrica en el eje delantero (potencia máxima regulada por Balance of Performance).</p>
+      </div>
+      <div class="span-4" style="display:grid;gap:10px">
+        <div class="tag"><span>🏁</span><b>Le Mans 2024</b></div>
+        <div class="tag"><span>🛞</span>Gestión de neumáticos clave</div>
+        <div class="tag"><span>⛽</span>Estrategia de combustible</div>
+        <div class="tag"><span>🌧️</span>Condiciones mixtas</div>
+      </div>
+    </div>
+
+    <div class="footer">
+      Imágenes: Wikimedia Commons (licencias abiertas). Video: Canal oficial FIA WEC en YouTube. Este archivo es una ficha para transmisión/streaming.
+    </div>
+  </div>
+
+  <script>
+    // Carousel JS minimalista
+    const track = document.getElementById('track');
+    const slides = Array.from(track.querySelectorAll('img'));
+    const prev = document.getElementById('prev');
+    const next = document.getElementById('next');
+    const dots = document.getElementById('dots');
+
+    let index = 0;
+
+    const render = () => {
+      track.style.width = `${slides.length * 100}%`;
+      slides.forEach(s => s.style.width = `${100 / slides.length}%`);
+      track.style.transform = `translateX(-${index * (100 / slides.length)}%)`;
+      dots.querySelectorAll('.dot').forEach((d,i)=>{
+        d.classList.toggle('active', i === index);
+      })
+    };
+
+    // Dots
+    slides.forEach((_, i) => {
+      const d = document.createElement('div');
+      d.className = 'dot' + (i===0 ? ' active' : '');
+      d.addEventListener('click', () => { index = i; render(); });
+      dots.appendChild(d);
+    });
+
+    prev.addEventListener('click', () => {
+      index = (index - 1 + slides.length) % slides.length;
+      render();
+    });
+    next.addEventListener('click', () => {
+      index = (index + 1) % slides.length;
+      render();
+    });
+
+    // Auto-play suave para stream
+    setInterval(()=>{ index = (index + 1) % slides.length; render(); }, 5500);
+
+    // Inicializa
+    render();
+  </script>
+</body>
+</html>
