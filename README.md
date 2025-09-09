@@ -1,26 +1,39 @@
-Ficha Técnica: Ferrari 499P - Le Mans 2024
-Este es un proyecto estático en HTML que sirve como una ficha técnica y visual para el Ferrari 499P, el hypercar ganador de las 24 Horas de Le Mans 2024.
+<div align="center">
+<h1>🏆 Ficha Técnica: Ferrari 499P - Le Mans 2024</h1>
+</div>
 
-🌐 Live Demo
-Puedes ver el proyecto en vivo aquí: [(https://ficha-ferrari-499-p.vercel.app/)]
+Este es un proyecto estático en HTML que sirve como una ficha técnica y visual del Ferrari 499P, el hypercar ganador de las 24 Horas de Le Mans 2024.
 
-✨ Características
-Diseño Limpio: Interfaz simple y enfocada en el contenido.
+📊 Estado del Proyecto
+<br/>
 
-Detalles Clave: Muestra información y especificaciones del vehículo.
+🚀 Ver Proyecto en Vivo
+Puedes ver y explorar la ficha aquí:
 
-Galería de Imágenes: Incluye fotografías de alta calidad del auto de carrera.
+🌐 https://ficha-ferrari-499-p.vercel.app/
 
-💻 Tecnologías
-HTML: Para la estructura de la página.
+🏎️ Acerca del Proyecto
+El objetivo de este proyecto era crear una página informativa y visualmente atractiva utilizando habilidades básicas de desarrollo web. La ficha se centra en el auto de carrera y su victoria, presentando el contenido de una manera limpia y accesible.
 
-CSS: Para estilizar y dar formato al contenido.
+✨ Características Principales
+Diseño Responsivo: La página se adapta a diferentes tamaños de pantalla.
 
-🚀 ¿Cómo usarlo localmente?
-Si deseas ver o modificar el proyecto en tu computadora, sigue estos pasos:
+Galería de Imágenes: Muestra fotografías de alta calidad del Ferrari 499P.
 
-Clona el repositorio en tu máquina local usando la terminal: git clone https://github.com/MaxiSalto/Ficha_Ferrari_499P.git
+Contenido Clave: Presenta datos técnicos y curiosidades sobre el vehículo.
 
-Abre la carpeta del proyecto.
+🛠️ Tecnologías Utilizadas
+HTML: Estructura el contenido de la ficha.
 
-Abre el archivo index.html en tu navegador web.
+CSS: Se utiliza para el estilo y la presentación visual.
+
+# Clona el repositorio
+git clone https://github.com/MaxiSalto/Ficha_Ferrari_499P.git
+
+# Ve a la carpeta del proyecto
+cd Ficha_Ferrari_499P
+
+Luego, simplemente abre el archivo index.html en tu navegador.
+
+💻 ¿Cómo Usar?
+Para clonar y ver este proyecto en tu entorno local, sigue estos sencillos pasos:
